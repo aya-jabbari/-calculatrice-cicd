@@ -30,6 +30,6 @@ deploy:
   stage: deploy
   script:
     - ls -l dist/
-    - echo "Application déployée avec succès !"
+    - echo "Application deployee avec succes !"
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
